@@ -1,0 +1,18 @@
+{
+  "apiKey": {
+    "label": "API Key",
+    "type": "Password",
+    "required": true,
+    "help": "Kindly specify your API Key for authentication."
+  },
+  "operationType": {
+    "label": "Operation",
+    "type": "String",
+    "enum": [
+      "StaticMap",
+      "ImageryMetadata"
+    ],
+    "required": true,
+    "help": "Select \"StaticMap\" to get static map data or select \"ImageryMetadata\" to get imagery metadata."
+  }
+}
